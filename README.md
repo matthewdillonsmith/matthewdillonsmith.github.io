@@ -1,2 +1,2 @@
 # smittymx88.github.io
-personal portfolio site v2
+<p><a href="https://smittymx88.github.io/main/index.html">Click here</a> to view this page</p>
