@@ -1,2 +1,3 @@
-# smittymx88.github.io
-<p><a href="main/index.html">Click here</a> to view this page</p>
+# Welcom to smittymx88.github.io!
+
+This is where I plan to put all of my personal portfolio stuff.
