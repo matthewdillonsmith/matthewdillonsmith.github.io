@@ -1,34 +1,410 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>Home</title>
-    <link rel="icon" type="image/png" href="favicons/portfolio-favicon16x16.png" />
-  </head>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="./assets/apps-style.css">
+        <script src="./assets/apps-script.js"></script>
+    </head>
+    <body>
+        <div class="nav-container">
+            <nav class="nav">
+                <a class="a" href="./home.html">Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn">About Me</button>
+                    <div class="dropdown-content">
+                        <a href="#intro">Introduction</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#timeline">Timeline</a>
+                        <a href="#closing">Closing Comments</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Portfolio</button>
+                    <div class="dropdown-content">
+                        <a href="./apps.html" target="_blank">Apps</a>
+                        <a href=" ">Curriculum Vitae</a>
+                        <a href=" ">Placeholder (SU)</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Connect with Me</button>
+                    <div class="dropdown-content">
+                        <a href="mailto:matthew.dillon.smith@outlook.com">Email</a>
+                        <a href="https://www.linkedin.com/in/matthew-dillon-smith" target="_blank">LinkedIn</a>
+                    </div>
+                </div> 
+            <!--
+                <div class="dropdown">
+                    <button class="dropbtn">Dropdown 2</button>
+                    <div class="dropdown-content">
+                        <a href=" ">Link 6</a>
+                        <a href=" ">Link 7</a>
+                        <a href=" ">Link 8</a>
+                        <a href=" ">Link 9</a>
+                        <a href=" ">Link 10</a>
+                    </div>
+                </div> 
+            -->
+            </nav>
+        </div>
+        
+        <!--
+        <h2>Hello World</h2><br>
+        <p id="p1">This is a test for my external JavaScript</p>
+        <button class="button" style="float:left" type="button" 
+        onclick='changetexttest1("p1")'>JavaScript Test</button>
+        <button class="button" style="float:left" type="button" 
+        onclick='changetexttest2("p1")'>Revert</button>
+        -->
+        <h1 style="text-align: center; margin-top: 75px;">Welcome.</h1>
+        <div class="banner-img-container">
+            <img src='./assets/banner-img-test2.jpeg' alt="banner-img">
+        </div>
+        <br>
+        <h2 style="margin: 770px 0px 0px 0px; text-align: center;"><a id="intro">Introduction</a></h2>
+        <hr style="width: 40%;">
+        <p style="text-align: center;">Introduction paragraph (do I need this?)</p>
+        <br><hr style="margin-bottom: 20px;">
+        <div class="intro-container">
+            <div class="intro-card">
+                <h3>Intro topic goes here</h3>
+                <hr>
+                <p> &emsp;Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Nunc pretium justo id mi 
+                    cursus, eu condimentum ante eleifend. Suspendisse 
+                    vel ligula ullamcorper, consequat orci vel, 
+                    pretium dui. Pellentesque habitant morbi tristique senectus 
+                    et netus et malesuada fames ac turpis egestas. Nulla vulputate 
+                    viverra ex ac feugiat. Proin tincidunt justo quis neque congue, 
+                    get semper augue porta. Sed elit erat, dapibus non placerat sit 
+                    amet, luctus vitae justo. Suspendisse dignissim, leo sed sodales 
+                    tempor, tortor enim rutrum libero, vel ultrices diam mauris 
+                    eget libero. In sagittis lectus ullamcorper, 
+                    luctus massa eget, gravida orci. Integer 
+                    molestie ante augue, sed luctus arcu vestibulum 
+                    a. Nunc in est dui. Morbi erat leo, mollis ac 
+                    velit non, luctus tristique magna.</p>              
+            </div>
+            <div class="intro-card">
+                <h3>Intro topic goes here</h3>
+                <hr>
+                <p> &emsp;Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Nunc pretium justo id mi 
+                    cursus, eu condimentum ante eleifend. Suspendisse 
+                    vel ligula ullamcorper, consequat orci vel, 
+                    pretium dui. Pellentesque habitant morbi tristique senectus 
+                    et netus et malesuada fames ac turpis egestas. Nulla vulputate 
+                    viverra ex ac feugiat. Proin tincidunt justo quis neque congue, 
+                    get semper augue porta. Sed elit erat, dapibus non placerat sit 
+                    amet, luctus vitae justo. Suspendisse dignissim, leo sed sodales 
+                    tempor, tortor enim rutrum libero, vel ultrices diam mauris 
+                    eget libero. In sagittis lectus ullamcorper, 
+                    luctus massa eget, gravida orci. Integer 
+                    molestie ante augue, sed luctus arcu vestibulum 
+                    a. Nunc in est dui. Morbi erat leo, mollis ac 
+                    velit non, luctus tristique magna.</p>               
+            </div>
+            <div class="intro-card">
+                <h3>Intro topic goes here</h3>
+                <hr>
+                <p> &emsp;Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Nunc pretium justo id mi 
+                    cursus, eu condimentum ante eleifend. Suspendisse 
+                    vel ligula ullamcorper, consequat orci vel, 
+                    pretium dui. Pellentesque habitant morbi tristique senectus 
+                    et netus et malesuada fames ac turpis egestas. Nulla vulputate 
+                    viverra ex ac feugiat. Proin tincidunt justo quis neque congue, 
+                    get semper augue porta. Sed elit erat, dapibus non placerat sit 
+                    amet, luctus vitae justo. Suspendisse dignissim, leo sed sodales 
+                    tempor, tortor enim rutrum libero, vel ultrices diam mauris 
+                    eget libero. In sagittis lectus ullamcorper, 
+                    luctus massa eget, gravida orci. Integer 
+                    molestie ante augue, sed luctus arcu vestibulum 
+                    a. Nunc in est dui. Morbi erat leo, mollis ac 
+                    velit non, luctus tristique magna.</p>              
+            </div>
+        </div>
 
-  
-<style>
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-</style>
-  
-<body>
+        <br><br><br>
 
-  <nav>
-    <ul>
-      <li style="display:inline"><a href="https://matthewdillonsmith.github.io/about-me">About Me</a></li>
-      <li style="display:inline"><a href="https://matthewdillonsmith.github.io/cv">CV</a></li>
-      <li style="display:inline"><a href="https://matthewdillonsmith.github.io/portfolio">Portfolio</a></li>
-    </ul>
-  </nav>
-  <h1 style="text-align:center">Welcome to my personal portfolio page!</h1>
-  <img src="images/website-under-construction.webp" alt="website-under-construction" class="center">
-  <p style="text-align:center">This page is currently under construction. Come back soon to see this page transform.</p>
+        <h2 class="header2" id="skills">Skills</h2>
+        <hr style="width: 40%;">
+        <p class="header2-p">Do I need something here??</p>
+        <!-- Row of three -->
+        <div class="skill-container">
+            <div class="skill-card">
+                <h3>Python</h3>
+                <hr>
+                <img src="./assets/python-logo.png" alt="skill-icon-img">
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Nunc pretium justo id mi 
+                    cursus, eu condimentum ante eleifend. Suspendisse 
+                    vel ligula ullamcorper, consequat orci vel, 
+                    pretium dui. </p>
+            </div>
+            <div class="skill-card">
+                <h3>R</h3>
+                <hr>
+                <img src="./assets/R-logo.png" alt="skill-icon-img">
+                <hr>
+                <p>&emsp;Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Nunc pretium justo id mi 
+                    cursus, eu condimentum ante eleifend. Suspendisse 
+                    vel ligula ullamcorper, consequat orci vel, 
+                    pretium dui. </p>
+            </div>
+            <div class="skill-card">
+                <h3>SQL</h3>
+                <hr>
+                <img src="./assets/sql-logo.png" alt="skill-icon-img">
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Nunc pretium justo id mi 
+                    cursus, eu condimentum ante eleifend. Suspendisse 
+                    vel ligula ullamcorper, consequat orci vel, 
+                    pretium dui. </p>
+            </div>
+        </div>
+        <!-- Row of three -->
+        <div class="skill-container">
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <hr>
+                <img src="./assets/html-logo.png" alt="skill-icon-img">
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Nunc pretium justo id mi 
+                    cursus, eu condimentum ante eleifend. Suspendisse 
+                    vel ligula ullamcorper, consequat orci vel, 
+                    pretium dui. </p>
+            </div>
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <hr>
+                <img src="./assets/css-logo.png" alt="skill-icon-img">
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Nunc pretium justo id mi 
+                    cursus, eu condimentum ante eleifend. Suspendisse 
+                    vel ligula ullamcorper, consequat orci vel, 
+                    pretium dui. </p>
+            </div>
+            <div class="skill-card">
+                <h3>JavaScript (in progress...)</h3>
+                <hr>
+                <img src="./assets/javascript-logo.png" alt="skill-icon-img">
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Nunc pretium justo id mi 
+                    cursus, eu condimentum ante eleifend. Suspendisse 
+                    vel ligula ullamcorper, consequat orci vel, 
+                    pretium dui. </p>
+            </div>
+        </div>
+        <div class="skill-container">
+            <div class="skill-card">
+                <h3>Markdown</h3>
+                <hr>
+                <img src="./assets/markdown-logo.png" alt="skill-icon-img">
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Nunc pretium justo id mi 
+                    cursus, eu condimentum ante eleifend. Suspendisse 
+                    vel ligula ullamcorper, consequat orci vel, 
+                    pretium dui. </p>
+            </div>
+            <div class="skill-card">
+                <h3>Plotly - Dash</h3>
+                <hr>
+                <img style="margin-bottom: 18px; margin-top: 23px;" 
+                src="./assets/plotly-dash-logo.png" alt="skill-icon-img">
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Nunc pretium justo id mi 
+                    cursus, eu condimentum ante eleifend. Suspendisse 
+                    vel ligula ullamcorper, consequat orci vel, 
+                    pretium dui. </p>
+            </div>
+            <div class="skill-card">
+                <h3>Git/GitHub</h3>
+                <hr>
+                <img src="./assets/git-logo.png" alt="skill-icon-img">
+                <img src="./assets/github-logo.png" alt="skill-icon-img">
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Nunc pretium justo id mi 
+                    cursus, eu condimentum ante eleifend. Suspendisse 
+                    vel ligula ullamcorper, consequat orci vel, 
+                    pretium dui. </p>
+            </div>
+        </div>
+        <div class="skill-container">
+            <div class="skill-card">
+                <h3>Heroku</h3>
+                <hr>
+                <img src="./assets/heroku-logo.png" alt="skill-icon-img">
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Nunc pretium justo id mi 
+                    cursus, eu condimentum ante eleifend. Suspendisse 
+                    vel ligula ullamcorper, consequat orci vel, 
+                    pretium dui. </p>
+            </div>
+            <div class="skill-card">
+                <h3>Machine Learning (in-progress...)</h3>
+                <hr>
+                <img src="./assets/machinelearning-logo.png" alt="skill-icon-img">
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Nunc pretium justo id mi 
+                    cursus, eu condimentum ante eleifend. Suspendisse 
+                    vel ligula ullamcorper, consequat orci vel, 
+                    pretium dui. </p>
+            </div>
+            <div class="skill-card">
+                <h3>Microsoft Power BI</h3>
+                <hr>
+                <img src="./assets/mspowerbi-logo.png" alt="skill-icon-img">
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Nunc pretium justo id mi 
+                    cursus, eu condimentum ante eleifend. Suspendisse 
+                    vel ligula ullamcorper, consequat orci vel, 
+                    pretium dui. </p>
+            </div>
+        </div>
+        <div class="skill-container">
+            <div class="skill-card">
+                <h3>PHP (in progress...)</h3>
+                <hr>
+                <img src="./assets/php-logo.png" alt="skill-icon-img">
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Nunc pretium justo id mi 
+                    cursus, eu condimentum ante eleifend. Suspendisse 
+                    vel ligula ullamcorper, consequat orci vel, 
+                    pretium dui. </p>
+            </div>
+            <div class="skill-card">
+                <h3>Docker (in progress...)</h3>
+                <hr>
+                <img src="./assets/docker-logo.png" alt="skill-icon-img">
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Nunc pretium justo id mi 
+                    cursus, eu condimentum ante eleifend. Suspendisse 
+                    vel ligula ullamcorper, consequat orci vel, 
+                    pretium dui. </p>
+            </div>
+            <div class="skill-card">
+                <h3>COMING SOON</h3>
+                <hr>
+                <img src="./assets/brain-download-logo.png" alt="skill-icon-img">
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Nunc pretium justo id mi 
+                    cursus, eu condimentum ante eleifend. Suspendisse 
+                    vel ligula ullamcorper, consequat orci vel, 
+                    pretium dui. </p>
+            </div>
+        </div>
 
-</body>
+        <br><br><br>
+
+        <div class="timeline-container">
+            <h2 id="timeline">Timeline</h2>
+            <p class="title-p"><i>In reverse chronological order.</i></p>
+            <hr style="width: 40%;">
+            <br>
+        </div>
+        <div class="timeline">
+            <div class="container right">
+                <div class="content">
+                <h2>2022 - now</h2>
+                <p>&emsp;Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Nunc pretium justo id mi 
+                    cursus, eu condimentum ante eleifend. Suspendisse 
+                    vel ligula ullamcorper, consequat orci vel, 
+                    pretium dui. Pellentesque habitant morbi tristique senectus 
+                    et netus et malesuada fames ac turpis egestas. Nulla vulputate 
+                    viverra ex ac feugiat. Proin tincidunt justo quis neque congue, 
+                    get semper augue porta. Sed elit erat, dapibus non placerat sit 
+                    amet, luctus vitae justo. Suspendisse dignissim, leo sed sodales 
+                    tempor, tortor enim rutrum libero, vel ultrices diam mauris 
+                    eget libero. In sagittis lectus ullamcorper, 
+                    luctus massa eget, gravida orci. Integer 
+                    molestie ante augue, sed luctus arcu vestibulum 
+                    a. Nunc in est dui. Morbi erat leo, mollis ac 
+                    velit non, luctus tristique magna.</p>
+                </div>
+            </div>
+            <div class="container left">
+                <div class="content">
+                <h2>2021</h2>
+                <p>&emsp;Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Nunc pretium justo id mi 
+                    cursus, eu condimentum ante eleifend. Suspendisse 
+                    vel ligula ullamcorper, consequat orci vel, 
+                    pretium dui. Pellentesque habitant morbi tristique senectus 
+                    et netus et malesuada fames ac turpis egestas. Nulla vulputate 
+                    viverra ex ac feugiat. Proin tincidunt justo quis neque congue, 
+                    get semper augue porta. Sed elit erat, dapibus non placerat sit 
+                    amet, luctus vitae justo. Suspendisse dignissim, leo sed sodales 
+                    tempor, tortor enim rutrum libero, vel ultrices diam mauris 
+                    eget libero. In sagittis lectus ullamcorper, 
+                    luctus massa eget, gravida orci. Integer 
+                    molestie ante augue, sed luctus arcu vestibulum 
+                    a. Nunc in est dui. Morbi erat leo, mollis ac 
+                    velit non, luctus tristique magna.</p>
+                </div>
+            </div>
+            <div class="container right">
+                <div class="content">
+                <h2>2013 - 2020</h2>
+                <p>&emsp;Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Nunc pretium justo id mi 
+                    cursus, eu condimentum ante eleifend. Suspendisse 
+                    vel ligula ullamcorper, consequat orci vel, 
+                    pretium dui. Pellentesque habitant morbi tristique senectus 
+                    et netus et malesuada fames ac turpis egestas. Nulla vulputate 
+                    viverra ex ac feugiat. Proin tincidunt justo quis neque congue, 
+                    get semper augue porta. Sed elit erat, dapibus non placerat sit 
+                    amet, luctus vitae justo. Suspendisse dignissim, leo sed sodales 
+                    tempor, tortor enim rutrum libero, vel ultrices diam mauris 
+                    eget libero. In sagittis lectus ullamcorper, 
+                    luctus massa eget, gravida orci. Integer 
+                    molestie ante augue, sed luctus arcu vestibulum 
+                    a. Nunc in est dui. Morbi erat leo, mollis ac 
+                    velit non, luctus tristique magna.</p>
+                </div>
+            </div>
+        </div>
+        
+        <br><br><br>
+
+        <div class="closing-statement-container">
+            <h2 id="closing" style="color: white;">In closing.</h2>
+            <hr style="width: 40%;">
+            <br><br>
+            <p>Now that you know a little bit about me, check out some of my
+                stuff in the "Portfolio" section in the navigation bar at the 
+                top of the page! 
+            </p>
+            <p>
+                Also, come back to see what else I've been up
+                to, as I will try to keep this page as up-to-date as possible.
+            </p>
+            <div class="signature-block">
+                <img src=" " alt="my-signature">
+                <h4>Matthew D. Smith, MBA, PMP</h4>
+            </div>
+            
+        </div>
+
+        <br><br><br>
+
+    </body>
+    <footer class="footer-container">
+    </footer>
 </html>
