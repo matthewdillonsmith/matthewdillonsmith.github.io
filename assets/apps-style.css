@@ -132,6 +132,11 @@ color: black;
     border-radius: 20%;
 }
 
+.app-card-text {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .app-card:hover {
     background: darkgray;
 }
@@ -357,15 +362,13 @@ color: black;
 
 .signature-block {
     text-align: right;
-    margin-right: 500px;
-    margin-top: 50px;
+    margin-right: 600px;
+    margin-bottom: 40px;
 }
 
 .signature-block img {
     text-align: right;
-    margin-right: 70px;
+    margin-left: 800px;
     width: 300px;
-    height: 100px;
-    padding: 20px;
-    border: 1px solid green;
+    height: 150px;
 }
