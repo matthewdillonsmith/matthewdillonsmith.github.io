@@ -95,6 +95,12 @@ color: black;
     margin: 0px 10px 0px 10px;
 }
 
+
+.app-container {
+    margin-top: 20px;
+    display: flex;
+}
+
 /* For App container with three app cards (to align them */
 .app-container-3 {
     margin-top: 20px;
