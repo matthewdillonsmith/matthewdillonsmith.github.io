@@ -37,10 +37,10 @@
             </nav>
         </div>
 
-        <h1 style="text-align: center; margin-top: 75px;">Hi, my name's Matt.</h1>
+        <h1 style="font-size: 40px; text-align: center; margin-top: 75px;">Hi, my name's Matt.</h1>
         <br>
         <h2 id="Introduction" style="text-align: center;">Introduction</h2>
-        <hr style="width: 40%;">
+        <hr style="width: 40%; margin-bottom: 40px;">
         <p style="text-align: center;">
             Lorem ipsum dolor sit amet, consectetur 
             adipiscing elit. Nunc pretium justo id mi 
@@ -58,66 +58,297 @@
             a. Nunc in est dui. Morbi erat leo, mollis ac 
             velit non, luctus tristique magna.
         </p>
-        <br><hr style="margin-bottom: 20px;">
-        <div class="intro-container">
-            <div class="intro-card">
-                <h3>Intro topic goes here</h3>         <!-- Make these into overlapping tabs that 
-                                                            users can click through (see w3schools "How to" link)-->
-                <hr>
-                <p> &emsp;Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit. Nunc pretium justo id mi 
-                    cursus, eu condimentum ante eleifend. Suspendisse 
-                    vel ligula ullamcorper, consequat orci vel, 
-                    pretium dui. Pellentesque habitant morbi tristique senectus 
-                    et netus et malesuada fames ac turpis egestas. Nulla vulputate 
-                    viverra ex ac feugiat. Proin tincidunt justo quis neque congue, 
-                    get semper augue porta. Sed elit erat, dapibus non placerat sit 
-                    amet, luctus vitae justo. Suspendisse dignissim, leo sed sodales 
-                    tempor, tortor enim rutrum libero, vel ultrices diam mauris 
-                    eget libero. In sagittis lectus ullamcorper, 
-                    luctus massa eget, gravida orci. Integer 
-                    molestie ante augue, sed luctus arcu vestibulum 
-                    a. Nunc in est dui. Morbi erat leo, mollis ac 
-                    velit non, luctus tristique magna.</p>              
+        <br>
+        <!---->
+        <!-- Make these into overlapping tabs that users can click through (see w3schools "How to" link)-->
+        
+        <div class="app-container">
+            <button class="tablink" onclick="openPage('FullStackDevelopment', this, '#777')"id="defaultOpen">Full Stack Development</button>
+            <button class="tablink" onclick="openPage('DataScienceandAnalytics', this, '#777')">Data Science and Analytics</button>
+            <button class="tablink" onclick="openPage('ProgramandProjectManagement', this, '#777')">Program and Project Management</button>
+        </div>
+
+        <div id="FullStackDevelopment" class="tabcontent-large">
+            <p>
+            &emsp;&emsp;Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Nunc pretium justo id mi 
+            cursus, eu condimentum ante eleifend. Suspendisse 
+            vel ligula ullamcorper, consequat orci vel, 
+            pretium dui. Pellentesque habitant morbi tristique senectus 
+            et netus et malesuada fames ac turpis egestas. Nulla vulputate 
+            viverra ex ac feugiat. Proin tincidunt justo quis neque congue, 
+            get semper augue porta. Sed elit erat, dapibus non placerat sit 
+            amet, luctus vitae justo. Suspendisse dignissim, leo sed sodales 
+            tempor, tortor enim rutrum libero, vel ultrices diam mauris 
+            eget libero. In sagittis lectus ullamcorper, 
+            luctus massa eget, gravida orci. Integer 
+            molestie ante augue, sed luctus arcu vestibulum 
+            a. Nunc in est dui. Morbi erat leo, mollis ac 
+            velit non, luctus tristique magna.
+            </p>
+            <br>
+            <h2 style="text-align: center;">Front End</h2>
+            <hr style="width: 40%;">
+            <br>
+            <div class="skill-container">
+                <div class="skill-card">
+                    <h3>HTML</h3>
+                    <hr>
+                    <img src="./assets/html-logo.png" alt="skill-icon-img">
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur 
+                        adipiscing elit. Nunc pretium justo id mi 
+                        cursus, eu condimentum ante eleifend. Suspendisse 
+                        vel ligula ullamcorper, consequat orci vel, 
+                        pretium dui. </p>
+                </div>
+                <div class="skill-card">
+                    <h3>CSS</h3>
+                    <hr>
+                    <img src="./assets/css-logo.png" alt="skill-icon-img">
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur 
+                        adipiscing elit. Nunc pretium justo id mi 
+                        cursus, eu condimentum ante eleifend. Suspendisse 
+                        vel ligula ullamcorper, consequat orci vel, 
+                        pretium dui. </p>
+                </div>
+                <div class="skill-card">
+                    <h3>JavaScript (in progress...)</h3>
+                    <hr>
+                    <img src="./assets/javascript-logo.png" alt="skill-icon-img">
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur 
+                        adipiscing elit. Nunc pretium justo id mi 
+                        cursus, eu condimentum ante eleifend. Suspendisse 
+                        vel ligula ullamcorper, consequat orci vel, 
+                        pretium dui. </p>
+                </div>
             </div>
-            <div class="intro-card">
-                <h3>Intro topic goes here</h3>
-                <hr>
-                <p> &emsp;Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit. Nunc pretium justo id mi 
-                    cursus, eu condimentum ante eleifend. Suspendisse 
-                    vel ligula ullamcorper, consequat orci vel, 
-                    pretium dui. Pellentesque habitant morbi tristique senectus 
-                    et netus et malesuada fames ac turpis egestas. Nulla vulputate 
-                    viverra ex ac feugiat. Proin tincidunt justo quis neque congue, 
-                    get semper augue porta. Sed elit erat, dapibus non placerat sit 
-                    amet, luctus vitae justo. Suspendisse dignissim, leo sed sodales 
-                    tempor, tortor enim rutrum libero, vel ultrices diam mauris 
-                    eget libero. In sagittis lectus ullamcorper, 
-                    luctus massa eget, gravida orci. Integer 
-                    molestie ante augue, sed luctus arcu vestibulum 
-                    a. Nunc in est dui. Morbi erat leo, mollis ac 
-                    velit non, luctus tristique magna.</p>               
+            <br>
+            <h2 style="text-align: center;">Back End</h2>
+            <hr style="width: 40%;">
+            <br>
+            <div class="skill-container">
+                <div class="skill-card">
+                    <h3>Python</h3>
+                    <hr>
+                    <img src="./assets/python-logo.png" alt="skill-icon-img">
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur 
+                        adipiscing elit. Nunc pretium justo id mi 
+                        cursus, eu condimentum ante eleifend. Suspendisse 
+                        vel ligula ullamcorper, consequat orci vel, 
+                        pretium dui. </p>
+                </div>
+                <div class="skill-card">
+                    <h3>Git/GitHub</h3>
+                    <hr>
+                    <img src="./assets/git-logo.png" alt="skill-icon-img">
+                    <img src="./assets/github-logo.png" alt="skill-icon-img">
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur 
+                        adipiscing elit. Nunc pretium justo id mi 
+                        cursus, eu condimentum ante eleifend. Suspendisse 
+                        vel ligula ullamcorper, consequat orci vel, 
+                        pretium dui. </p>
+                </div>
+                <div class="skill-card">
+                    <h3>SQL</h3>
+                    <hr>
+                    <img src="./assets/sql-logo.png" alt="skill-icon-img">
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur 
+                        adipiscing elit. Nunc pretium justo id mi 
+                        cursus, eu condimentum ante eleifend. Suspendisse 
+                        vel ligula ullamcorper, consequat orci vel, 
+                        pretium dui. </p>
+                </div>
             </div>
-            <div class="intro-card">
-                <h3>Intro topic goes here</h3>
-                <hr>
-                <p> &emsp;Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit. Nunc pretium justo id mi 
-                    cursus, eu condimentum ante eleifend. Suspendisse 
-                    vel ligula ullamcorper, consequat orci vel, 
-                    pretium dui. Pellentesque habitant morbi tristique senectus 
-                    et netus et malesuada fames ac turpis egestas. Nulla vulputate 
-                    viverra ex ac feugiat. Proin tincidunt justo quis neque congue, 
-                    get semper augue porta. Sed elit erat, dapibus non placerat sit 
-                    amet, luctus vitae justo. Suspendisse dignissim, leo sed sodales 
-                    tempor, tortor enim rutrum libero, vel ultrices diam mauris 
-                    eget libero. In sagittis lectus ullamcorper, 
-                    luctus massa eget, gravida orci. Integer 
-                    molestie ante augue, sed luctus arcu vestibulum 
-                    a. Nunc in est dui. Morbi erat leo, mollis ac 
-                    velit non, luctus tristique magna.</p>              
+            
+        </div>
+
+        <div id="DataScienceandAnalytics" class="tabcontent-large">
+            <p>
+            &emsp;&emsp;Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Nunc pretium justo id mi 
+            cursus, eu condimentum ante eleifend. Suspendisse 
+            vel ligula ullamcorper, consequat orci vel, 
+            pretium dui. Pellentesque habitant morbi tristique senectus 
+            et netus et malesuada fames ac turpis egestas. Nulla vulputate 
+            viverra ex ac feugiat. Proin tincidunt justo quis neque congue, 
+            get semper augue porta. Sed elit erat, dapibus non placerat sit 
+            amet, luctus vitae justo. Suspendisse dignissim, leo sed sodales 
+            tempor, tortor enim rutrum libero, vel ultrices diam mauris 
+            eget libero. In sagittis lectus ullamcorper, 
+            luctus massa eget, gravida orci. Integer 
+            molestie ante augue, sed luctus arcu vestibulum 
+            a. Nunc in est dui. Morbi erat leo, mollis ac 
+            velit non, luctus tristique magna.
+            </p>
+            <br>
+            <h2 style="text-align: center;">Data Analysis and Model Building</h2>
+            <hr style="width: 40%;">
+            <br>
+            <div class="skill-container">
+                <div class="skill-card">
+                    <h3>Python</h3>
+                    <hr>
+                    <img src="./assets/python-logo.png" alt="skill-icon-img">
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur 
+                        adipiscing elit. Nunc pretium justo id mi 
+                        cursus, eu condimentum ante eleifend. Suspendisse 
+                        vel ligula ullamcorper, consequat orci vel, 
+                        pretium dui. </p>
+                </div>
+                <div class="skill-card">
+                    <h3>R</h3>
+                    <hr>
+                    <img src="./assets/R-logo.png" alt="skill-icon-img">
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur 
+                        adipiscing elit. Nunc pretium justo id mi 
+                        cursus, eu condimentum ante eleifend. Suspendisse 
+                        vel ligula ullamcorper, consequat orci vel, 
+                        pretium dui. </p>
+                </div>
+                <div class="skill-card">
+                    <h3>Machine Learning</h3>
+                    <hr>
+                    <img src="./assets/machinelearning-logo.png" alt="skill-icon-img">
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur 
+                        adipiscing elit. Nunc pretium justo id mi 
+                        cursus, eu condimentum ante eleifend. Suspendisse 
+                        vel ligula ullamcorper, consequat orci vel, 
+                        pretium dui. </p>
+                </div>
             </div>
+            <br>
+            <h2 style="text-align: center;">Reporting and Deployment</h2>
+            <hr style="width: 40%;">
+            <br>
+            <div class="skill-container">
+                <div class="skill-card">
+                    <h3>Plotly-Dash</h3>
+                    <hr>
+                    <img src="./assets/plotly-dash-logo.png" alt="skill-icon-img" style="margin: 20px 0px 20px 0px">
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur 
+                        adipiscing elit. Nunc pretium justo id mi 
+                        cursus, eu condimentum ante eleifend. Suspendisse 
+                        vel ligula ullamcorper, consequat orci vel, 
+                        pretium dui. </p>
+                </div>
+                <div class="skill-card">
+                    <h3>Git/GitHub</h3>
+                    <hr>
+                    <img src="./assets/git-logo.png" alt="skill-icon-img">
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur 
+                        adipiscing elit. Nunc pretium justo id mi 
+                        cursus, eu condimentum ante eleifend. Suspendisse 
+                        vel ligula ullamcorper, consequat orci vel, 
+                        pretium dui. </p>
+                </div>
+                <div class="skill-card">
+                    <h3>Microsoft PowerBI/Report Builder</h3>
+                    <hr>
+                    <img src="./assets/mspowerbi-logo.png" alt="skill-icon-img">
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur 
+                        adipiscing elit. Nunc pretium justo id mi 
+                        cursus, eu condimentum ante eleifend. Suspendisse 
+                        vel ligula ullamcorper, consequat orci vel, 
+                        pretium dui. </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="ProgramandProjectManagement" class="tabcontent-small">
+            <p>
+            &emsp;&emsp;Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Nunc pretium justo id mi 
+            cursus, eu condimentum ante eleifend. Suspendisse 
+            vel ligula ullamcorper, consequat orci vel, 
+            pretium dui. Pellentesque habitant morbi tristique senectus 
+            et netus et malesuada fames ac turpis egestas. Nulla vulputate 
+            viverra ex ac feugiat. Proin tincidunt justo quis neque congue, 
+            get semper augue porta. Sed elit erat, dapibus non placerat sit 
+            amet, luctus vitae justo. Suspendisse dignissim, leo sed sodales 
+            tempor, tortor enim rutrum libero, vel ultrices diam mauris 
+            eget libero. In sagittis lectus ullamcorper, 
+            luctus massa eget, gravida orci. Integer 
+            molestie ante augue, sed luctus arcu vestibulum 
+            a. Nunc in est dui. Morbi erat leo, mollis ac 
+            velit non, luctus tristique magna.
+            </p>
+            <br>
+            <div class="skill-container">
+                <div class="skill-card">
+                    <h3>MS Project</h3>
+                    <hr>
+                    <img src="./assets/ms-project.jpg" alt="skill-icon-img">
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur 
+                        adipiscing elit. Nunc pretium justo id mi 
+                        cursus, eu condimentum ante eleifend. Suspendisse 
+                        vel ligula ullamcorper, consequat orci vel, 
+                        pretium dui. </p>
+                </div>
+                <div class="skill-card">
+                    <h3>Teams</h3>
+                    <hr>
+                    <img src="./assets/ms-teams.jpg" alt="skill-icon-img">
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur 
+                        adipiscing elit. Nunc pretium justo id mi 
+                        cursus, eu condimentum ante eleifend. Suspendisse 
+                        vel ligula ullamcorper, consequat orci vel, 
+                        pretium dui. </p>
+                </div>
+                <div class="skill-card">
+                    <h3>Sharepoint</h3>
+                    <hr>
+                    <img src="./assets/ms-sharepoint.jpg" alt="skill-icon-img">
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur 
+                        adipiscing elit. Nunc pretium justo id mi 
+                        cursus, eu condimentum ante eleifend. Suspendisse 
+                        vel ligula ullamcorper, consequat orci vel, 
+                        pretium dui. </p>
+                </div>
+            </div>
+        </div>
+
+
+            <!--
+            <div class="intro-card"><a href="https://www.google.com" style="text-decoration: none; color: black;" target="_blank;">
+                <h3>Full Stack Development</h3>
+                <hr>
+                <ol style="text-align: left;">
+                    1) Short description of my skills in this domain<br>
+                    2) link to a page that describes my process(es) of development in this domain.
+                </ol>              
+            </a></div>
+            <div class="intro-card"><a href="https://www.google.com" style="text-decoration: none; color: black;" target="_blank;">
+                <h3>Data Science and Analytics</h3>
+                <hr>
+                <ol style="text-align: left;">
+                    1) Short description of my skills in this domain<br>
+                    2) link to a page that describes my process(es) of development in this domain.
+                </ol>               
+            </a></div>
+            <div class="intro-card"><a href="https://www.google.com" style="text-decoration: none; color: black;" target="_blank;">
+                <h3>Program and Project Management</h3>
+                <hr>
+                <ol style="text-align: left;">
+                    1) Short description of my skills in this domain<br>
+                    2) link to a page that describes my process(es) of development in this domain.
+                </ol>              
+            </a></div>
+            -->
         </div>
 
         <br><br><br>
@@ -134,77 +365,8 @@
                                                                             o ITIL (coming soon)
                                                                             o etc... -->
         <!-- Row of three -->
-        <div class="skill-container">
-            <div class="skill-card">
-                <h3>Python</h3>
-                <hr>
-                <img src="./assets/python-logo.png" alt="skill-icon-img">
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit. Nunc pretium justo id mi 
-                    cursus, eu condimentum ante eleifend. Suspendisse 
-                    vel ligula ullamcorper, consequat orci vel, 
-                    pretium dui. </p>
-            </div>
-            <div class="skill-card">
-                <h3>R</h3>
-                <hr>
-                <img src="./assets/R-logo.png" alt="skill-icon-img">
-                <hr>
-                <p>&emsp;Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit. Nunc pretium justo id mi 
-                    cursus, eu condimentum ante eleifend. Suspendisse 
-                    vel ligula ullamcorper, consequat orci vel, 
-                    pretium dui. </p>
-            </div>
-            <div class="skill-card">
-                <h3>SQL</h3>
-                <hr>
-                <img src="./assets/sql-logo.png" alt="skill-icon-img">
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit. Nunc pretium justo id mi 
-                    cursus, eu condimentum ante eleifend. Suspendisse 
-                    vel ligula ullamcorper, consequat orci vel, 
-                    pretium dui. </p>
-            </div>
-        </div>
         <!-- Row of three -->
-        <div class="skill-container">
-            <div class="skill-card">
-                <h3>HTML</h3>
-                <hr>
-                <img src="./assets/html-logo.png" alt="skill-icon-img">
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit. Nunc pretium justo id mi 
-                    cursus, eu condimentum ante eleifend. Suspendisse 
-                    vel ligula ullamcorper, consequat orci vel, 
-                    pretium dui. </p>
-            </div>
-            <div class="skill-card">
-                <h3>CSS</h3>
-                <hr>
-                <img src="./assets/css-logo.png" alt="skill-icon-img">
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit. Nunc pretium justo id mi 
-                    cursus, eu condimentum ante eleifend. Suspendisse 
-                    vel ligula ullamcorper, consequat orci vel, 
-                    pretium dui. </p>
-            </div>
-            <div class="skill-card">
-                <h3>JavaScript (in progress...)</h3>
-                <hr>
-                <img src="./assets/javascript-logo.png" alt="skill-icon-img">
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit. Nunc pretium justo id mi 
-                    cursus, eu condimentum ante eleifend. Suspendisse 
-                    vel ligula ullamcorper, consequat orci vel, 
-                    pretium dui. </p>
-            </div>
-        </div>
+        
         <div class="skill-container">
             <div class="skill-card">
                 <h3>Markdown</h3>
@@ -229,18 +391,7 @@
                     vel ligula ullamcorper, consequat orci vel, 
                     pretium dui. </p>
             </div>
-            <div class="skill-card">
-                <h3>Git/GitHub</h3>
-                <hr>
-                <img src="./assets/git-logo.png" alt="skill-icon-img">
-                <img src="./assets/github-logo.png" alt="skill-icon-img">
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit. Nunc pretium justo id mi 
-                    cursus, eu condimentum ante eleifend. Suspendisse 
-                    vel ligula ullamcorper, consequat orci vel, 
-                    pretium dui. </p>
-            </div>
+            
         </div>
         <div class="skill-container">
             <div class="skill-card">

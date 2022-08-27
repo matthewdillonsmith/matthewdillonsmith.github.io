@@ -8,6 +8,51 @@ Syracuse Colors
 #000E54 (blue)
 */
 
+/* Style tab links */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+    flex: 1;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent-large{
+    color: black;
+    display: none;
+    padding: 10px 20px;
+    height: 125%;
+  }
+
+  .tabcontent-small{
+    color: black;
+    display: none;
+    padding: 10px 20px;
+    height: 100%;
+  }
+  
+  #FullStackDevelopment {background-color: whitesmoke;}
+  #DataScienceandAnalytics {background-color: whitesmoke;}
+  #ProgramandProjectManagement {background-color: whitesmoke;}
+
+
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+  }
+
 /* Overall top navbar style */
 .nav-container {
     background: #333;
@@ -200,6 +245,15 @@ color: black;
     box-shadow: 10px 10px 5px grey;
     padding: 10px 10px 10px 10px;
 }
+
+.hidden-skill-card {
+    flex: 1;
+    border: 2px solid whitesmoke;
+    margin: 10px 20px 20px 20px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
 
 .skill-icon-img {
     width: 20px;
