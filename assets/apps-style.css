@@ -8,11 +8,22 @@ Syracuse Colors
 #000E54 (blue)
 */
 
-/* Style tab links */
-.tablink {
+/*---------------------------------------------------------*/
+/* Style the overall tab content */
+/*---------------------------------------------------------*/
+
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  /* Style tab links */
+  .tablink-outer {
     background-color: #555;
     color: white;
-    float: center;
+    float: left;
     border: none;
     outline: none;
     cursor: pointer;
@@ -22,36 +33,38 @@ Syracuse Colors
     flex: 1;
   }
   
-  .tablink:hover {
+  .tablink-outer:hover {
     background-color: #777;
   }
   
-  /* Style the tab content (and add height:100% for full page content) */
-  .tabcontent-large{
+/* Style the outer tab content (and add height:100% for full page content) */
+  .tabcontent-1{
     color: black;
     display: none;
-    padding: 10px 20px;
-    height: 125%;
-  }
-
-  .tabcontent-small{
-    color: black;
-    display: none;
-    padding: 10px 20px;
+    padding: 100px 20px;
     height: 100%;
-  }
+    margin-bottom: 1000px;
+    }
+
+  /* Style the inner tab content */
+* {box-sizing: border-box}
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 300px;
+}
+
   
-  #FullStackDevelopment {background-color: whitesmoke;}
-  #DataScienceandAnalytics {background-color: whitesmoke;}
-  #ProgramandProjectManagement {background-color: whitesmoke;}
+#Home {background-color: red;}
+#News {background-color: green;}
+#Contact {background-color: blue;}
+#About {background-color: orange;}
 
 
-/* Set height of body and the document to 100% to enable "full page tabs" */
-body, html {
-    height: 100%;
-    margin: 0;
-    font-family: Arial;
-  }
 
 /* Overall top navbar style */
 .nav-container {
@@ -261,7 +274,14 @@ color: black;
 }
 
 /* Need to find the tutorial with the stacked timeline */
+div.anythingSlider{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .timeline-container {
+    align-items: center;
     text-align: center;
 }
 
@@ -271,6 +291,8 @@ color: black;
 
 .footer-container {
     text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .text-block {
@@ -333,7 +355,7 @@ color: black;
   
 /* Place the container to the left */
 .left {
-    left: -6.75%;
+    left: 0%;
 }
   
 /* Place the container to the right */
